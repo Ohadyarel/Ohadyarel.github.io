@@ -1,0 +1,79 @@
+html, body {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*home page*/
+
+#home {
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	right: 0; left: 0;
+	top: 0; bottom: 20%;
+	margin: auto;
+	text-align: center;
+}
+
+.home_header {
+	display: none;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.home_header h1 {
+	font-size: 3.5em;
+	margin-bottom: 0;
+	color: #315685;
+}
+
+.home_header h2 {
+	margin-top: 5px;
+	letter-spacing: 2px;
+	color: #898D8B;
+}
+
+.divider {
+	width: 0;
+	height: 2px;
+	margin: 25px auto;
+	background: black;
+}
+
+#home_nav {
+	list-style: none;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#home_nav a {
+	text-decoration: none;
+	color: black;
+}
+
+#home_nav li {
+	display: none;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 2em;
+	margin-top: 18px;
+	cursor: pointer;
+}
+
+/*main nav bar*/
+#main_navbar {
+	display: none;
+}
+
+.navbar-brand {
+	color: #315685;
+}
+
+/*content tabs*/
+
+.content_tab {
+	width: 80%;
+	margin: 75px auto;
+	display: none;
+}
